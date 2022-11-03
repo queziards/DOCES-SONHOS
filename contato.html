@@ -5,6 +5,14 @@
     <link href="estilo.css" rel="stylesheet">
     <meta charset="UTF-8" />
     <title>DOCES SONHOS</title>
+    <link real ="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+
+<script>
+alert("Utiize esse formulario para se comunicar conosco!")
+dia = new Array("Domingo", "Segunda-Feira", "Terça-Feira", "Quarta-Feira", "Quinta-Feira", "Sexta-Feira", "Sabado");
+mes = new Array ("Janeiro", "Fevereiro", "Março", "Abril", "Maio", "Junho", "Agosto", "Setembro", "Outubro", "Novembro", "Dezembro");
+data = new Date;
+</script>
 </head>
 
 <body>
@@ -27,16 +35,30 @@
 
     <main id="itens">
 
+
         <ul id="album-fotos">
+<script type="text/javascript">
+    alert(data.getDate())
+    document.write(dia[data.getDay()] + " , " + data.getDate() + " de " + mes[data.getMonth()] + " de " + data.getFullYear());
+</script>
+</ul>
+<a class="contato_texto"></a>
+<br>
+<br><a href="#" class="myButton">Preencha os campos com suas doces duvidas!</a><br>
+                    <br>
 
             <div class="container">
+
                 <a class="links" id="paracadastro"></a>
                 <a class="links" id="paralogin"></a>
+                
+
 
                 <div class="content">
                     <!--FORMULÁRIO DE LOGIN-->
                     <div id="login">
-                        <form method="post" action="">
+                            
+                     <form method="post" action="">
                             <h1>Login</h1>
                             <p>
                                 <label for="email_login">Seu e-mail</label>
